@@ -1,0 +1,10 @@
+.div-general-section1-main {
+    background-image: url(/img/Фон.png);
+    height: 720px;
+}
+
+@media (max-width: 480px) {
+    .div-general-section1-main {
+        height: 600px;
+    }
+}
