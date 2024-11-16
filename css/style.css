@@ -180,6 +180,18 @@ a {
     margin: 0px;
   }
 }
+input:focus {
+  border: 1px;
+}
+
+button:focus {
+  border: none;
+}
+
+a:hover {
+  color: rgb(149, 17, 17);
+}
+
 .div-general-section1-main {
   background-image: url(/img/Фон.png);
   height: 720px;
