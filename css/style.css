@@ -123,6 +123,9 @@ span {
   .div-general-header__nav-link2 {
     font-size: 30px;
   }
+  .div-general-header__nav {
+    gap: 0px;
+  }
 }
 h1 {
   font-weight: 900;
@@ -196,7 +199,7 @@ a {
   }
   p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     margin: 0px;
   }
@@ -234,6 +237,7 @@ a:hover {
   gap: 25px;
   padding: 32px 0px 63px;
   justify-content: center;
+  align-items: start;
 }
 .div-general-section2-main__text {
   width: 443px;
@@ -242,6 +246,7 @@ a:hover {
   gap: 35px;
   height: 364px;
   display: block;
+  align-items: start;
 }
 .div-general-section2-main__img2 {
   padding: 0px 0px 0px 200px;
@@ -283,11 +288,22 @@ a:hover {
     width: 280px;
   }
   .div-general-section2-main__img2 {
-    padding: 10px 0px 0px 180px;
+    padding: 10px 0px 0px 0px;
+    width: 200px;
+  }
+  .div-general-section2-main__div-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
   }
   .div-general-section2-main {
     flex-direction: column;
+    align-items: center;
     gap: 20px;
+  }
+  .div-general-section2-main__text {
+    width: 300px;
   }
 }
 .div-general-section3-main {
@@ -362,7 +378,6 @@ a:hover {
   }
   .div-general-section3-main__div-img-2 {
     position: static;
-    margin: 10px 0px 0px 180px;
     width: 200px;
     height: 150px;
   }
@@ -379,6 +394,14 @@ a:hover {
   }
   .div-general-section3-main__div-text-title {
     display: none;
+  }
+  .div-general-section3-main__div-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-general-section3-main__div-text-text {
+    width: 300px;
   }
 }
 .section4 {
@@ -482,7 +505,7 @@ a:hover {
 }
 @media (max-width: 767px) {
   .section4 {
-    height: 617px;
+    height: 647px;
   }
   .div-general-section4-main__div-title {
     display: none;
@@ -496,29 +519,29 @@ a:hover {
     position: relative;
   }
   .section4-img-div1__img1 {
-    height: 300px;
-    width: 160px;
+    height: 280px;
+    width: 140px;
     order: 2;
     position: absolute;
     left: 10px;
   }
   .section4-img-div2__img1 {
     height: 180px;
-    width: 170px;
+    width: 140px;
     order: 2;
     position: absolute;
     right: 10px;
   }
   .section4-img-div2__img2 {
-    height: 300px;
-    width: 160px;
+    height: 280px;
+    width: 130px;
     position: absolute;
     right: 20px;
     top: 190px;
   }
   .section4-img-div1__img-img2 {
-    height: 180px;
-    width: 170px;
+    height: 160px;
+    width: 150px;
     position: absolute;
     top: 310px;
   }
@@ -526,7 +549,7 @@ a:hover {
     position: relative;
   }
   .div-general-section4-main__p {
-    width: 440px;
+    width: 310px;
     text-align: center;
     display: block;
     padding: 10px 0px 0px;
@@ -659,6 +682,9 @@ a:hover {
     flex-direction: column;
     gap: 35px;
   }
+  .div-general-section5-main__card {
+    width: 315px;
+  }
 }
 .modal-dialog {
   max-width: 1005px;
@@ -742,7 +768,7 @@ a:hover {
     display: block;
   }
   .modal-body__input {
-    width: 306px;
+    width: 280px;
   }
   .modal-window__img {
     display: none;
@@ -760,7 +786,7 @@ a:hover {
   .modal-footer {
     display: flex;
     justify-content: end;
-    width: 450px;
+    width: 300px;
   }
   .modal-content {
     padding: 0px;

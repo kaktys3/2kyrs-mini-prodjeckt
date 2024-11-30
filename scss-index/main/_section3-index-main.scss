@@ -86,7 +86,6 @@
 
     .div-general-section3-main__div-img-2 {
         position: static;
-        margin: 10px 0px 0px 180px;
         width: 200px;
         height: 150px;
     }
@@ -107,5 +106,15 @@
 
     .div-general-section3-main__div-text-title {
         display: none;
+    }
+
+    .div-general-section3-main__div-img  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-general-section3-main__div-text-text {
+        width: 300px;
     }
 }
