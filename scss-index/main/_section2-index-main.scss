@@ -3,8 +3,9 @@
 }
 
 .div-general-section2-main {
-    gap: 85px;
+    gap: 25px;
     padding: 32px 0px 63px;
+    justify-content: center;
 
     &__text {
         width: 443px;
@@ -18,6 +19,11 @@
 
     &__img2 {
         padding: 0px 0px 0px 200px;
+        width: 200px;
+    }
+
+    &__img1 {
+        width: 300px;
     }
 }
 
@@ -49,9 +55,13 @@
         width: 350px;
         padding: 10px 0px 0px 200px;
     }
+
+    .div-general-section2-main__div-img {
+        max-width: 340px;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .div-general-section2-main__img1 {
         width: 280px;
     }

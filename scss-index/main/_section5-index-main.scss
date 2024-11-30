@@ -2,11 +2,15 @@
     gap: 65px;
 
     &__card {
-        width: 365px;
+        width: 325px;
         height: 487px;
         gap: 4px;
         background-color: white;
         padding: 15px 0px 0px;
+    }
+
+    &__card > img {
+        width: 290px;
     }
 
     &__card-text {
@@ -26,7 +30,7 @@
     }
 
     &__content {
-        gap: 35px;
+        gap: 25px;
     }
 }
 
@@ -80,7 +84,7 @@
 
 .div-general-section5-main__content-div-for-adaptiv {
     display: flex;
-    gap: 35px;
+    gap: 25px;
 }
 
 @media (max-width: 1024px) {
@@ -95,7 +99,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .div-general-section5-main__content {
         flex-direction: column;
         gap: 35px;

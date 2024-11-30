@@ -3,6 +3,17 @@ footer {
     padding: 0px 0px 61px;
 }
 
+.footer-img {
+    transition-property: transform;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: rotate(0deg);
+}
+
+.footer-img:hover {
+    transform: rotate(-360deg);
+}
+
 .div-general-footer {
     &__text3 {
         width: 401px;
@@ -31,7 +42,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .div-general-footer__content-text-2 {
         width: 120px;
     }
@@ -46,7 +57,7 @@ footer {
 
     .div-general-footer__content-button2 {
         display: flex;
-        gap: 80px;
+        gap: 60px;
     }
 
     .div-general-footer__content-button1 {
@@ -60,5 +71,9 @@ footer {
 
     footer {
         padding: 0px;
+    }
+
+    .div-general-footer__title {
+        width: 320px;
     }
 }

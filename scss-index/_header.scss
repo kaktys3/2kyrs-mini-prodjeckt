@@ -55,8 +55,16 @@ span {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .div-general-header__nav-link {
         display: none ;
+    }
+
+    .div-general-header__nav-span {
+        font-size: 30px;
+    }
+
+    .div-general-header__nav-link2 {
+        font-size: 30px;
     }
 }

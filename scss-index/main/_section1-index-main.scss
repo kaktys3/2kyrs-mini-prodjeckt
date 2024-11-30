@@ -1,10 +1,13 @@
 .div-general-section1-main {
-    background-image: url(/img/Фон.png);
-    height: 720px;
+    padding: 270px 0px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .div-general-section1-main {
-        height: 600px;
+        padding: 230px 0px;
     }
+}
+
+.section1-main {
+    background-image: url(/img/Фон2.png);
 }
